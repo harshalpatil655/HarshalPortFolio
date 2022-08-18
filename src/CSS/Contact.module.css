@@ -1,0 +1,98 @@
+.light {
+  background-color: rgba(192, 225, 237, 0.489);
+  color: black;
+}
+.dark {
+  background-color: rgb(6, 31, 40);
+  color: white;
+}
+.contactdivs {
+  display: flex;
+  justify-content: center;
+}
+.contactlogodivlight {
+  width: 400px;
+  color: #094c66;
+}
+a {
+  text-decoration: none;
+  color: #018ec4;
+}
+.contactlogodivsdark {
+  width: 400px;
+  color: #018ec4;
+}
+/* .contactdivs:hover {
+  transform: scale(1.09);
+  transition: all 0.9s ease;
+  box-shadow: 0 0 5px 5px #018ec4;
+} */
+.contacthover:hover {
+  transform: scale(1.59);
+  transition: all 0.9s ease;
+}
+.contactemaildiv {
+  width: 400px;
+}
+
+.contactp {
+  margin-top: -18px;
+  font-weight: 600;
+  color: gray;
+  width: 800px;
+  margin-left: 150px;
+}
+.contactmail {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: 20px;
+}
+.formlabel {
+  text-align: start;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+.forminput {
+  height: 25px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+}
+.formbtn {
+  border: none;
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  background-color: #018ec4;
+  color: white;
+  border-radius: 3px;
+}
+.formbtn:hover {
+  transform: scale(1.09);
+  transition: all 0.9s ease;
+}
+.build {
+  padding: 2rem;
+  text-decoration: underline;
+  color: #0a6f97;
+}
+.builddark {
+  padding: 2rem;
+  text-decoration: underline;
+  color: white;
+}
+
+@media (max-width: 720px) {
+  .contactdivs {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacttitle {
+    text-align: start;
+    margin-left: 50px;
+  }
+  .contactp {
+    margin-left: 0px;
+    width: 300px;
+  }
+}

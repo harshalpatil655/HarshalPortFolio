@@ -1,0 +1,47 @@
+.abtflex {
+  display: flex;
+  justify-content: center;
+}
+.abtflex > div {
+  width: 400px;
+}
+.abtimage {
+  border-radius: 5px;
+  margin: 1rem;
+  height: 300px;
+  border: 1px solid rgb(207, 205, 205);
+  padding: 5px;
+}
+.abtimage:hover {
+  box-shadow: 0 0 5px 5px #018ec4;
+  transform: scale(1.09);
+  transition: all 0.9s ease;
+}
+.abtnumbers {
+  display: flex;
+  justify-content: center;
+}
+.abtnumbers > div {
+  width: 100px;
+}
+.abtpara {
+  margin: 1rem;
+}
+@media (max-width: 720px) {
+  .abtflex {
+    display: flex;
+    flex-direction: column;
+  }
+  .toptitle {
+    text-align: center;
+  }
+}
+@media (max-width: 240px) {
+  .abtflex {
+    display: flex;
+    flex-direction: column;
+  }
+  .toptitle {
+    text-align: center;
+  }
+}

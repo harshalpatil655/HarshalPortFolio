@@ -1,0 +1,36 @@
+.navflex {
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.logodiv {
+  margin-left: 20px;
+  margin-right: 500px;
+  font-weight: 800;
+  font-size: 25px;
+  cursor: pointer;
+  display: flex;
+  color: #1a799e;
+}
+.tabs {
+  margin-right: 30px;
+  cursor: pointer;
+}
+.tabs:hover {
+  text-decoration: underline;
+  color: #018ec4;
+}
+
+@media (max-width: 720px) {
+  .navflex {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 240px) {
+  .navflex {
+    display: flex;
+    flex-direction: column;
+  }
+}

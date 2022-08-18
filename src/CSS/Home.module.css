@@ -1,0 +1,105 @@
+.home {
+  margin-top: 30px;
+}
+
+.homeflex {
+  display: flex;
+  justify-content: center;
+}
+.homeflex > div {
+  height: 300px;
+  width: 400px;
+}
+.myimg {
+  margin-right: 120px;
+  border: none;
+  border-radius: 50%;
+  height: 230px;
+  width: 200px;
+  border: 1px solid rgb(207, 205, 205);
+  padding: 5px;
+}
+
+.myimg:hover {
+  box-shadow: 0 0 5px 5px #018ec4;
+  transform: scale(1.09);
+  transition: all 0.9s ease;
+}
+.weblink {
+  margin-top: 50px;
+}
+.weblink:hover {
+  transform: scale(1.09);
+  transition: all 0.9s ease;
+}
+.aboutgithub:hover {
+  transform: scale(1.09);
+  transition: all 0.9s ease;
+}
+.abtmail:hover {
+  transform: scale(1.09);
+  transition: all 0.9s ease;
+}
+.homebtn {
+  border: none;
+  color: white;
+  background-color: #018ec4;
+  height: 40px;
+  width: 180px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.homebtn:hover {
+  transform: scale(1.09);
+  transition: all 0.9s ease;
+  box-shadow: 0 0 5px 5px #00a3d8;
+}
+
+@media (max-width: 720px) {
+  .homeflex {
+    display: flex;
+    flex-direction: column;
+  }
+  .weblink {
+    display: none;
+  }
+  .aboutgithub {
+    display: none;
+  }
+  .abtmail {
+    display: none;
+  }
+  .taketotop {
+    margin-top: -300px;
+  }
+  /* .weblink {
+    display: none;
+  } */
+}
+.titleitemwrapper {
+  height: 20%;
+  animation: move 5s ease-in-out infinite alternate;
+}
+@media (max-width: 240px) {
+  .weblink {
+    display: none;
+  }
+  .aboutgithub {
+    display: none;
+  }
+  .abtmail {
+    display: none;
+  }
+}
+@keyframes move {
+  50% {
+    transform: translateY(20px);
+  }
+}
+.titleitem {
+  height: 1050px;
+  color: #00a3d8;
+  align-items: center;
+
+  font-size: 25px;
+}
