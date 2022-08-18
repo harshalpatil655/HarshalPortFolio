@@ -8,7 +8,7 @@ import { GrCentos } from "react-icons/gr";
 const Navbar = () => {
   const { isLight, toggleTheame } = useContext(TheameContext);
   return (
-    <div style={{ borderBottom: "1px solid gray" }}>
+    <div className={styles.sticknav} style={{ borderBottom: "1px solid gray" }}>
       <div className={styles.navflex}>
         <div className={styles.logodiv}>
           {" "}

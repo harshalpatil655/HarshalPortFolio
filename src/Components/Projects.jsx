@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../CSS/Projects.module.css";
 import anthropologie from "../Image/anthropologie.PNG";
 import ssence from "../Image/ssence.PNG";
+import appleclone from "../Image/appleclone.PNG";
 
 export const Projects = () => {
   return (
@@ -221,82 +222,6 @@ export const Projects = () => {
         </div>
       </div>
       {/* ////////////////////////////////////// */}
-      <div className={styles.projectflex}>
-        <div className={styles.projectimage}>
-          <div>
-            <img
-              className={styles.clonewebimg}
-              src="data:image/jpeg;base64,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"
-              alt="Apple-Clone"
-            />
-          </div>
-          <div
-            className={styles.logosmargin}
-            style={{ display: "flex", justifyContent: "space-evenly" }}
-          >
-            <div>
-              <img
-                className={styles.projectimageslogo}
-                src="https://masai-website-images.s3.ap-south-1.amazonaws.com/html_5_e17a3be25f.svg"
-                alt="HTML"
-              />
-              <p className={styles.projectp}>HTML</p>
-            </div>
-            <div>
-              <img
-                className={styles.projectimageslogo}
-                src="https://masai-website-images.s3.ap-south-1.amazonaws.com/css_3_3dbbdc86b6.svg"
-                alt="CSS"
-              />
-              <p className={styles.projectp}>CSS</p>
-            </div>
-            <div>
-              <img
-                className={styles.projectimageslogo}
-                src="https://masai-website-images.s3.ap-south-1.amazonaws.com/javascript_96690a83df.svg"
-                alt="JavaScript"
-              />
-              <p className={styles.projectp}>JavaScript</p>
-            </div>
-          </div>
-        </div>
-        <div className={styles.projectdetails}>
-          <div>
-            <div>
-              <h1>Apple-Clone</h1>
-            </div>
-            <div>
-              <p className={styles.projectspecs}>
-                {" "}
-                <span style={{ fontSize: "23px", fontWeight: "800" }}>
-                  {">"}
-                </span>{" "}
-                This website is build to purchase the any category of apple
-                products.
-              </p>
-              <p className={styles.projectspecs}>
-                {" "}
-                <span style={{ fontSize: "23px", fontWeight: "800" }}>
-                  {">"}
-                </span>{" "}
-                Easy to locate desired category and get details of product also
-                can purchase the product of desired specifications.
-              </p>
-              <p className={styles.projectspecs}>
-                <span style={{ fontSize: "23px", fontWeight: "800" }}>
-                  {">"}
-                </span>{" "}
-                A collaborative project, built in 5 days by a team of 4
-                developers.
-              </p>
-            </div>
-            <div>
-              <button className={styles.projectbutton}>Live Site</button>
-              <button className={styles.projectbutton}>Github Repo</button>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };
