@@ -22,11 +22,15 @@
 @media (max-width: 720px) {
   .skillstitle {
     text-align: center;
+    margin-right: 80px;
   }
   .logodiv {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3);
+  }
+  .skillsflex {
+    width: 80%;
   }
 }
 

@@ -2,12 +2,11 @@ import React from "react";
 import styles from "../CSS/Projects.module.css";
 import anthropologie from "../Image/anthropologie.PNG";
 import ssence from "../Image/ssence.PNG";
-import appleclone from "../Image/appleclone.PNG";
 
 export const Projects = () => {
   return (
     <div className={styles.projects} id={"projects"}>
-      <div>
+      <div className={styles.projecttitle}>
         <h1 style={{ textDecoration: "underline", marginTop: "30px" }}>
           Projects
         </h1>
@@ -36,7 +35,7 @@ export const Projects = () => {
             className={styles.logosmargin}
             style={{ display: "flex", justifyContent: "space-evenly" }}
           >
-            <div>
+            <div className={styles.logomarginleft}>
               <img
                 className={styles.projectimageslogo}
                 src="https://masai-website-images.s3.ap-south-1.amazonaws.com/html_5_e17a3be25f.svg"

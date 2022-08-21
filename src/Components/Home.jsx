@@ -51,7 +51,7 @@ const Home = () => {
         </div>
         <div className={styles.taketotop}>
           <div>
-            <h1>
+            <h1 className={styles.myh1}>
               {" "}
               <span
                 style={{
@@ -62,7 +62,10 @@ const Home = () => {
                 Hi,
               </span>
             </h1>
-            <h1 style={{ marginTop: "-20px", textAlign: "start" }}>
+            <h1
+              className={styles.myname}
+              style={{ marginTop: "-20px", textAlign: "start" }}
+            >
               I am Harshal Patil
             </h1>
           </div>
@@ -72,13 +75,13 @@ const Home = () => {
             </h4>
           </div>
           <div>
-            <p style={{ marginTop: "-10px" }}>
+            <p className={styles.myp} style={{ marginTop: "-10px" }}>
               Skilled in react and redux and capable of making any kind of
               website{" "}
             </p>
           </div>
           <div>
-            <a href={resume} rel="noreferrer" download>
+            <a href={resume} download>
               <button className={styles.homebtn}> Download Resume</button>
             </a>
           </div>

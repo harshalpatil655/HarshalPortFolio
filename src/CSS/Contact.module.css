@@ -89,10 +89,19 @@ a {
   }
   .contacttitle {
     text-align: start;
-    margin-left: 50px;
+    margin-left: 20px;
   }
   .contactp {
     margin-left: 0px;
     width: 300px;
+  }
+  .contactname {
+    margin-right: 80px;
+  }
+  .build {
+    margin-right: 70px;
+  }
+  .builddark {
+    margin-right: 70px;
   }
 }

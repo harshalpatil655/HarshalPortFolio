@@ -77,6 +77,7 @@
   .projectflex {
     display: flex;
     flex-direction: column;
+    margin-right: 10px;
   }
   .projectimage {
     border: 3px solid black;
@@ -99,5 +100,24 @@
   }
   .logosmargin {
     margin-right: 50px;
+  }
+  .projecttitle {
+    width: 80%;
+  }
+  .projectimage {
+    width: 73%;
+  }
+  .clonewebimg {
+    width: 80%;
+  }
+  .logomarginleft {
+    margin-left: 60px;
+  }
+  .projectp {
+    width: 50%;
+    margin: 3px;
+  }
+  .projectdetails {
+    width: 70%;
   }
 }

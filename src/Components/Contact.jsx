@@ -57,6 +57,7 @@ const Contact = () => {
         >
           <div>
             <h2
+              className={styles.contactname}
               style={{
                 fontSize: "25px",
                 textDecoration: "underline",

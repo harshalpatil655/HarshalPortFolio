@@ -35,6 +35,18 @@
   .toptitle {
     text-align: center;
   }
+  .toptitle {
+    margin-right: 80px;
+  }
+  .abtimage {
+    margin-right: 100px;
+  }
+  .abtpara {
+    width: 70%;
+  }
+  .abtnumbers {
+    width: 80%;
+  }
 }
 @media (max-width: 240px) {
   .abtflex {
