@@ -81,7 +81,7 @@ const Home = () => {
             </p>
           </div>
           <div>
-            <a href={resume} download>
+            <a href={resume} target="_blank" download>
               <button className={styles.homebtn}> Download Resume</button>
             </a>
           </div>
