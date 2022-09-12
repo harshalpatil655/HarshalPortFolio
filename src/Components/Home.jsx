@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../CSS/Home.module.css";
 import { AiFillLinkedin, AiTwotoneMail, AiFillGithub } from "react-icons/ai";
 import photo from "../Image/harshalphoto.jpg";
-import resume from "../Resume/resume.pdf";
+import myresume from "../Resume/myresume.pdf";
 
 const Home = () => {
   const handleEmail = () => {
@@ -81,7 +81,7 @@ const Home = () => {
             </p>
           </div>
           <div>
-            <a href={resume} target="_blank" download>
+            <a href={myresume} target="_blank" download>
               <button className={styles.homebtn}> Download Resume</button>
             </a>
           </div>
