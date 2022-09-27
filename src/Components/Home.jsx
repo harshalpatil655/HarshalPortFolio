@@ -18,6 +18,7 @@ const Home = () => {
             <a
               href="https://www.linkedin.com/in/harshalpatil655"
               target="_blank"
+              rel="noreferrer"
             >
               {" "}
               <AiFillLinkedin
@@ -27,7 +28,11 @@ const Home = () => {
             </a>
           </div>
           <div className={styles.aboutgithub}>
-            <a href="https://github.com/harshalpatil655" target="_blank">
+            <a
+              href="https://github.com/harshalpatil655"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               <AiFillGithub
                 size={40}
@@ -81,14 +86,14 @@ const Home = () => {
             </p>
           </div>
           <div>
-            <a href={myresume} target="_blank" download>
+            <a href={myresume} target="_blank" rel="noreferrer" download>
               <button className={styles.homebtn}> Download Resume</button>
             </a>
           </div>
         </div>
         <div>
           <div>
-            <img className={styles.myimg} src={photo} alt="Harshal Patil" />
+            {/* <img className={styles.myimg} src={photo} alt="Harshal Patil" /> */}
           </div>
         </div>
       </div>

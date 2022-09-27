@@ -1,36 +1,91 @@
-.navflex {
-  display: flex;
-  padding-top: 15px;
-  padding-bottom: 5px;
-}
-
-.logodiv {
-  margin-left: 20px;
-  margin-right: 500px;
-  font-weight: 800;
-  font-size: 25px;
-  cursor: pointer;
-  display: flex;
-  color: #1a799e;
-}
-.tabs {
-  margin-right: 30px;
-  cursor: pointer;
-}
-.tabs:hover {
-  text-decoration: underline;
-  color: #018ec4;
-}
-
-@media (max-width: 720px) {
+@media (min-width: 1024px) {
   .navflex {
     display: flex;
-    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .linkstab {
+    display: flex;
+    flex-direction: row;
+  }
+  .logodiv {
+    margin-left: 20px;
+    margin-right: 400px;
+    font-weight: 800;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+    color: #1a799e;
+  }
+  .tabs {
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  .tabs:hover {
+    text-decoration: underline;
+    color: #018ec4;
   }
 }
-@media (max-width: 240px) {
+@media (max-width: 1024px) {
+  .navflex {
+    display: flex;
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  }
+  .linkstab {
+    display: flex;
+    flex-direction: row;
+  }
+  .logodiv {
+    margin-left: 20px;
+    margin-right: 100px;
+    font-weight: 800;
+    font-size: 35px;
+    cursor: pointer;
+    display: flex;
+    color: #1a799e;
+  }
+  .tabs {
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  .tabs:hover {
+    text-decoration: underline;
+    color: #018ec4;
+  }
+}
+@media (max-width: 480px) {
   .navflex {
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .linkstab {
+    display: flex;
+    flex-direction: row;
+  }
+  .logodiv {
+    font-weight: 800;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+    color: #1a799e;
+  }
+  .tabs {
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .tabs:hover {
+    text-decoration: underline;
+    color: #018ec4;
   }
 }

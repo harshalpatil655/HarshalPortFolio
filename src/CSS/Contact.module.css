@@ -45,7 +45,7 @@ a {
 .contactmail {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  /* justify-content: start; */
   margin-left: 20px;
 }
 .formlabel {
