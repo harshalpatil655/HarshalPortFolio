@@ -80,7 +80,7 @@ export const Projects = () => {
         <div className={styles.projectdetails}>
           <div>
             <div>
-              <h1>Anthropologie-Clone</h1>
+              <h1 className={styles.proname}>Anthropologie-Clone</h1>
             </div>
             <div>
               <p className={styles.projectspecs}>
@@ -112,6 +112,7 @@ export const Projects = () => {
                 <a
                   style={{ textDecoration: "none", color: "white" }}
                   target="_blank"
+                  rel="noreferrer"
                   href="https://anthropologie-website-clone.netlify.app/"
                 >
                   Live Site
@@ -122,6 +123,7 @@ export const Projects = () => {
                 <a
                   style={{ textDecoration: "none", color: "white" }}
                   target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/harshalpatil655/parsimonious-push-9068"
                 >
                   Github Repo
@@ -201,6 +203,7 @@ export const Projects = () => {
                 <a
                   style={{ textDecoration: "none", color: "white" }}
                   target="_blank"
+                  rel="noreferrer"
                   href="https://ssence-website-clone.netlify.app/"
                 >
                   Live Site
@@ -211,6 +214,7 @@ export const Projects = () => {
                 <a
                   style={{ textDecoration: "none", color: "white" }}
                   target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/harshalpatil655/SSENCE-CLONE-MASAI"
                 >
                   Github Repo

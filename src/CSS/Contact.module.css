@@ -1,107 +1,271 @@
-.light {
-  background-color: rgba(192, 225, 237, 0.489);
-  color: black;
-}
-.dark {
-  background-color: rgb(6, 31, 40);
-  color: white;
-}
-.contactdivs {
-  display: flex;
-  justify-content: center;
-}
-.contactlogodivlight {
-  width: 400px;
-  color: #094c66;
-}
-a {
-  text-decoration: none;
-  color: #018ec4;
-}
-.contactlogodivsdark {
-  width: 400px;
-  color: #018ec4;
-}
-/* .contactdivs:hover {
-  transform: scale(1.09);
-  transition: all 0.9s ease;
-  box-shadow: 0 0 5px 5px #018ec4;
-} */
-.contacthover:hover {
-  transform: scale(1.59);
-  transition: all 0.9s ease;
-}
-.contactemaildiv {
-  width: 400px;
-}
+@media (min-width: 1024px) {
+  .light {
+    background-color: rgba(192, 225, 237, 0.489);
+    color: black;
+  }
+  .dark {
+    background-color: rgb(6, 31, 40);
+    color: white;
+  }
+  .contactdivs {
+    display: flex;
+    justify-content: center;
+  }
+  .contactname {
+    font-size: 20px;
+  }
+  .contdiv {
+    display: flex;
+  }
+  .contlog {
+    display: flex;
+  }
+  .contone {
+    margin-right: 50px;
+  }
+  .contacthover {
+    margin: 10px;
+  }
+  a {
+    text-decoration: none;
+    color: #018ec4;
+  }
+  .contactlogodivsdark {
+    color: #018ec4;
+  }
 
-.contactp {
-  margin-top: -18px;
-  font-weight: 600;
-  color: gray;
-  width: 800px;
-  margin-left: 150px;
-}
-.contactmail {
-  display: flex;
-  flex-direction: column;
-  /* justify-content: start; */
-  margin-left: 20px;
-}
-.formlabel {
-  text-align: start;
-  font-size: 17px;
-  margin-bottom: 5px;
-}
-.forminput {
-  height: 25px;
-  margin-bottom: 10px;
-  margin-right: 100px;
-}
-.formbtn {
-  border: none;
-  width: 200px;
-  height: 30px;
-  font-size: 20px;
-  background-color: #018ec4;
-  color: white;
-  border-radius: 3px;
-}
-.formbtn:hover {
-  transform: scale(1.09);
-  transition: all 0.9s ease;
-}
-.build {
-  padding: 2rem;
-  text-decoration: underline;
-  color: #0a6f97;
-}
-.builddark {
-  padding: 2rem;
-  text-decoration: underline;
-  color: white;
-}
+  .contacthover:hover {
+    transform: scale(1.09);
+    transition: all 0.9s ease;
+  }
 
-@media (max-width: 720px) {
+  .contactp {
+    margin-top: -18px;
+    font-weight: 600;
+    color: gray;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .contactmail {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+  .formlabel {
+    text-align: start;
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+  .formbtn {
+    border: none;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #018ec4;
+    color: white;
+    border-radius: 3px;
+    margin: 1rem;
+  }
+  .formbtn:hover {
+    transform: scale(1.09);
+    transition: all 0.9s ease;
+  }
+  .build {
+    padding: 2rem;
+    text-decoration: underline;
+    color: #0a6f97;
+  }
+  .builddark {
+    padding: 2rem;
+    text-decoration: underline;
+    color: white;
+  }
+}
+/* tablet view
+////////////////////
+//////////////////////
+/////////////////////// */
+@media (max-width: 1024px) {
+  .light {
+    background-color: rgba(192, 225, 237, 0.489);
+    color: black;
+  }
+  .dark {
+    background-color: rgb(6, 31, 40);
+    color: white;
+  }
+  .contactdivs {
+    display: flex;
+    justify-content: center;
+  }
+  .contactname {
+    font-size: 20px;
+  }
+  .contdiv {
+    display: flex;
+  }
+  .contlog {
+    display: flex;
+  }
+  .contone {
+    margin-right: 50px;
+  }
+  .contacthover {
+    margin: 10px;
+  }
+  a {
+    text-decoration: none;
+    color: #018ec4;
+  }
+  .contactlogodivsdark {
+    color: #018ec4;
+  }
+
+  .contacthover:hover {
+    transform: scale(1.09);
+    transition: all 0.9s ease;
+  }
+
+  .contactp {
+    margin-top: -18px;
+    font-weight: 600;
+    color: gray;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .contactmail {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+  .formlabel {
+    text-align: start;
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+  .formbtn {
+    border: none;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #018ec4;
+    color: white;
+    border-radius: 3px;
+    margin: 1rem;
+  }
+  .formbtn:hover {
+    transform: scale(1.09);
+    transition: all 0.9s ease;
+  }
+  .build {
+    padding: 2rem;
+    text-decoration: underline;
+    color: #0a6f97;
+  }
+  .builddark {
+    padding: 2rem;
+    text-decoration: underline;
+    color: white;
+  }
+}
+/* mobile view//////////
+////////////////////
+//////////////////
+//////////////// */
+@media (max-width: 480px) {
+  .light {
+    background-color: rgba(192, 225, 237, 0.489);
+    color: black;
+  }
+  .dark {
+    background-color: rgb(6, 31, 40);
+    color: white;
+  }
   .contactdivs {
     display: flex;
     flex-direction: column;
-  }
-  .contacttitle {
-    text-align: start;
-    margin-left: 20px;
-  }
-  .contactp {
-    margin-left: 0px;
-    width: 300px;
+    justify-content: center;
   }
   .contactname {
-    margin-right: 80px;
+    font-size: 20px;
+  }
+  .contdiv {
+    display: flex;
+    margin-left: 30px;
+  }
+  .contlog {
+    display: flex;
+    margin-left: 20px;
+  }
+  .contone {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .contacthover {
+    margin: 5px;
+  }
+  a {
+    text-decoration: none;
+    color: #018ec4;
+  }
+  .contactlogodivsdark {
+    color: #018ec4;
+  }
+
+  .contacthover:hover {
+    transform: scale(1.09);
+    transition: all 0.9s ease;
+  }
+
+  .contactp {
+    margin-top: -18px;
+    font-weight: 600;
+    color: gray;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .contactmail {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+  .contactemaildiv {
+    margin: 1rem;
+  }
+  .formlabel {
+    text-align: start;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .forminput {
+    width: 250px;
+  }
+  .formbtn {
+    border: none;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #018ec4;
+    color: white;
+    border-radius: 3px;
+    margin: 1rem;
+  }
+  .formbtn:hover {
+    transform: scale(1.09);
+    transition: all 0.9s ease;
   }
   .build {
-    margin-right: 70px;
+    padding: 2rem;
+    text-decoration: underline;
+    color: #0a6f97;
   }
   .builddark {
-    margin-right: 70px;
+    padding: 2rem;
+    text-decoration: underline;
+    color: white;
   }
 }

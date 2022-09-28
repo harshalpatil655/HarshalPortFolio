@@ -50,84 +50,65 @@ const Contact = () => {
         </p>
       </div>
       <div className={styles.contactdivs}>
-        <div
-          className={`${
-            isLight ? styles.contactdivslight : styles.contactlogodivsdark
-          }`}
-        >
-          <div>
-            <h2
-              className={styles.contactname}
-              style={{
-                fontSize: "25px",
-                textDecoration: "underline",
-              }}
-            >
-              Harshal Hemant Patil
-            </h2>
-          </div>
-          <div style={{ marginLeft: "50px" }}>
-            <div style={{ display: "flex", marginTop: "50px" }}>
-              <div className={styles.contacthover}>
-                {" "}
-                <AiTwotoneMail size={30} />
-              </div>
-              <div
-                style={{
-                  marginLeft: "20px",
-                  fontWeight: "700",
-                  fontSize: "20px",
-                }}
-              >
-                harshalpatil655@gmail.com
-              </div>
+        <div className={styles.contone}>
+          <div
+            className={`${
+              isLight ? styles.contactdivslight : styles.contactlogodivsdark
+            }`}
+          >
+            <div>
+              <h2 className={styles.contactname}>Harshal Hemant Patil</h2>
             </div>
-            <div style={{ display: "flex", marginTop: "20px" }}>
-              <div className={styles.contacthover}>
-                <BsFillTelephoneForwardFill size={30} />
-              </div>
-              <div
-                style={{
-                  marginLeft: "20px",
-                  fontWeight: "700",
-                  fontSize: "20px",
-                }}
-              >
-                +91 7709993272
-              </div>
-            </div>
-            <div style={{ display: "flex", marginTop: "20px" }}>
-              <div
-                className={styles.contacthover}
-                style={{ marginRight: "20px" }}
-              >
-                <a
-                  href="https://www.linkedin.com/in/harshalpatil655"
-                  target="_blank"
-                >
+            <div>
+              <div className={styles.contdiv}>
+                <div className={styles.contacthover}>
                   {" "}
-                  <AiFillLinkedin size={30} />
-                </a>
-
-                <p style={{ marginTop: "-5px" }}>Linkedin</p>
+                  <AiTwotoneMail size={25} />
+                </div>
+                <div>harshalpatil655@gmail.com</div>
               </div>
-              <div
-                className={styles.contacthover}
-                style={{ marginRight: "20px" }}
-              >
-                <a href="https://github.com/account" target="_blank">
-                  {" "}
-                  <AiFillGithub size={30} />
-                </a>
-
-                <p style={{ marginTop: "-5px" }}>Github</p>
+              <div className={styles.contdiv}>
+                <div className={styles.contacthover}>
+                  <BsFillTelephoneForwardFill size={25} />
+                </div>
+                <div>+91 7709993272</div>
               </div>
-              <div className={styles.contacthover}>
-                <a href="https://twitter.com/harshalpatil655" target="_blank">
-                  <AiFillTwitterSquare color="#018ec4" size={30} />
-                </a>
+              <div className={styles.contlog}>
+                <div className={styles.contacthover}>
+                  <a
+                    href="https://www.linkedin.com/in/harshalpatil655"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {" "}
+                    <AiFillLinkedin size={30} />
+                  </a>
 
-                <p style={{ marginTop: "-5px" }}>Twitter</p>
+                  <p>Linkedin</p>
+                </div>
+                <div className={styles.contacthover}>
+                  <a
+                    href="https://github.com/account"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {" "}
+                    <AiFillGithub size={30} />
+                  </a>
+
+                  <p>Github</p>
+                </div>
+                <div className={styles.contacthover}>
+                  <a
+                    href="https://twitter.com/harshalpatil655"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <AiFillTwitterSquare color="#018ec4" size={30} />
+                  </a>
+
+                  <p>Twitter</p>
+                </div>
               </div>
             </div>
           </div>

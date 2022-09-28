@@ -1,55 +1,77 @@
-.skillsflex {
-  display: flex;
-  justify-content: center;
-}
-.logodiv {
-  width: 800px;
-  display: flex;
-  justify-content: center;
-  justify-content: space-around;
-  margin: 2rem;
-}
-
-.skillsimage {
-  height: 60px;
-  width: 60px;
-}
-.skillsimage:hover {
-  box-shadow: 0 0 5px 5px #018ec4;
-  transform: scale(1.09);
-  transition: all 0.5s ease;
-}
-@media (max-width: 720px) {
-  .skillstitle {
-    text-align: center;
-    margin-right: 80px;
-  }
-  .logodiv {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3);
-  }
+@media (min-width: 1024px) {
   .skillsflex {
-    width: 80%;
+    margin: 2rem;
+    justify-content: center;
   }
-}
+  .logodiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3);
+    justify-content: center;
+    justify-content: space-around;
+    margin: 2rem;
+  }
 
-@media (max-width: 240px) {
-  .skillstitle {
-    text-align: center;
+  .skillsimage {
+    height: 60px;
+    width: 70px;
   }
-  .logodiv {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3);
-    justify-content: center;
+  .skillsimage:hover {
+    transform: scale(1.09);
+    transition: all 0.5s ease;
   }
 }
-@media (max-width: 144px) {
+/* tablet view
+/////////////////
+///////////////
+/////////////////// */
+@media (max-width: 1024px) {
+  .skillsflex {
+    margin: 2rem;
+    justify-content: center;
+  }
   .logodiv {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3);
     justify-content: center;
+    justify-content: space-around;
+    margin: 2rem;
+  }
+
+  .skillsimage {
+    height: 60px;
+    width: 60px;
+  }
+  .skillsimage:hover {
+    transform: scale(1.09);
+    transition: all 0.5s ease;
+  }
+}
+/* mobile view
+///////////////////
+////////////////
+////////////////// */
+@media (max-width: 480px) {
+  .skillsflex {
+    margin: 2rem;
+    justify-content: center;
+  }
+  .logodiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3);
+    justify-content: center;
+    justify-content: space-around;
+    margin: 2rem;
+  }
+
+  .skillsimage {
+    height: 50px;
+    width: 50px;
+  }
+  .skillsimage:hover {
+    transform: scale(1.09);
+    transition: all 0.5s ease;
   }
 }
