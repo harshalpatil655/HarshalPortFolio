@@ -127,7 +127,7 @@ export const Projects = () => {
                   rel="noreferrer"
                   href="https://github.com/harshalpatil655/parsimonious-push-9068"
                 >
-                  Github Repo
+                  Github
                 </a>{" "}
               </button>
             </div>
