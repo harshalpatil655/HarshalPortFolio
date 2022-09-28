@@ -1,115 +1,59 @@
-.home {
-  margin-top: 50px;
-}
-
-.homeflex {
-  display: flex;
-  justify-content: center;
-}
-.homeflex > div {
-  height: 300px;
-  width: 400px;
-}
-.myimg {
-  margin-right: 120px;
-  border: none;
-  border-radius: 50%;
-  height: 230px;
-  width: 200px;
-  border: 1px solid rgb(207, 205, 205);
-  padding: 5px;
-}
-
-.myimg:hover {
-  box-shadow: 0 0 5px 5px #018ec4;
-  transform: scale(1.09);
-  transition: all 0.9s ease;
-}
-.weblink {
-  margin-top: 50px;
-}
-.weblink:hover {
-  transform: scale(1.09);
-  transition: all 0.9s ease;
-}
-.aboutgithub:hover {
-  transform: scale(1.09);
-  transition: all 0.9s ease;
-}
-.abtmail:hover {
-  transform: scale(1.09);
-  transition: all 0.9s ease;
-}
-.homebtn {
-  border: none;
-  color: white;
-  background-color: #018ec4;
-  height: 40px;
-  width: 180px;
-  font-size: 18px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.homebtn:hover {
-  transform: scale(1.09);
-  transition: all 0.9s ease;
-  box-shadow: 0 0 5px 5px #00a3d8;
-}
-
-@media (max-width: 720px) {
+@media (min-width: 1024px) {
+  .home {
+    margin-top: 50px;
+  }
   .homeflex {
     display: flex;
-    flex-direction: column;
   }
   .weblink {
-    display: none;
+    color: #018ec4;
+    margin-top: 100px;
+    margin-left: 50px;
   }
-  .aboutgithub {
-    display: none;
-  }
-  .abtmail {
-    display: none;
+  .weblink:hover {
+    transform: scale(1.09);
+    transition: all 0.9s ease;
   }
   .taketotop {
-    margin-top: -300px;
+    margin-left: 100px;
+    text-align: start;
   }
-  .myh1 {
-    margin-right: 30px;
+  .text {
+    font-size: 50px;
   }
   .myname {
-    margin-left: 10px;
+    margin-top: -25px;
+    font-size: 40px;
   }
+  .name {
+    color: #018ec4;
+    text-decoration: underline;
+  }
+
   .titleitemwrapper {
-    margin-right: 80px;
+    margin-top: -50px;
+    height: 20%;
+    animation: move 5s ease-in-out infinite alternate;
   }
-  .myp {
-    width: 80%;
+  .homep {
+    margin-top: -45px;
+    font-size: 15px;
+    width: 500px;
+    font-weight: 600;
   }
   .homebtn {
-    margin-right: 100px;
-    height: 65px;
+    border: none;
+    color: white;
+    background-color: #018ec4;
+    height: 40px;
+    width: 180px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
   }
-  .myimg {
-    margin-top: 30px;
-    margin-left: 30px;
-  }
-  /* .weblink {
-    display: none;
-  } */
-}
-.titleitemwrapper {
-  height: 20%;
-  animation: move 5s ease-in-out infinite alternate;
-}
-@media (max-width: 240px) {
-  .weblink {
-    display: none;
-  }
-  .aboutgithub {
-    display: none;
-  }
-  .abtmail {
-    display: none;
+  .homebtn:hover {
+    transform: scale(1.09);
+    transition: all 0.9s ease;
   }
 }
 @keyframes move {
@@ -121,5 +65,131 @@
   height: 50px;
   color: #00a3d8;
   align-items: center;
-  font-size: 25px;
+  font-size: 35px;
+}
+
+/* tablet view */
+/* //////////////////////////////////////////
+///////////////////////////////////////////////
+/////////////////////////////////////// */
+
+@media (max-width: 1024px) {
+  .home {
+    margin-top: 50px;
+  }
+  .homeflex {
+    display: flex;
+  }
+  .weblink {
+    color: #018ec4;
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+  .weblink:hover {
+    transform: scale(1.09);
+    transition: all 0.9s ease;
+  }
+  .taketotop {
+    margin-left: 50px;
+    text-align: start;
+  }
+  .text {
+    font-size: 40px;
+  }
+  .myname {
+    margin-top: -25px;
+    font-size: 35px;
+  }
+  .name {
+    color: #018ec4;
+    text-decoration: underline;
+  }
+  .titleitemwrapper {
+    margin-top: -50px;
+    height: 20%;
+    animation: move 5s ease-in-out infinite alternate;
+  }
+  .homep {
+    margin-top: -40px;
+    font-size: 20px;
+    width: 500px;
+    font-weight: 600;
+  }
+  .homebtn {
+    border: none;
+    color: white;
+    background-color: #018ec4;
+    height: 40px;
+    width: 180px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .homebtn:hover {
+    transform: scale(1.09);
+    transition: all 0.9s ease;
+  }
+  .titleitem {
+    font-size: 40px;
+  }
+}
+
+/* mobileview */
+/* ////////////////////////////////
+//////////////////////
+//////////////////////////////// */
+
+@media (max-width: 480px) {
+  .home {
+    margin-top: 80px;
+  }
+  .homeflex {
+    display: flex;
+  }
+  .weblink {
+    color: #018ec4;
+    margin-top: 10px;
+    margin-left: -60px;
+  }
+
+  .taketotop {
+    margin-left: 10px;
+    text-align: start;
+  }
+  .text {
+    font-size: 18px;
+  }
+  .myname {
+    margin-top: 10px;
+    font-size: 17px;
+  }
+  .name {
+    color: #018ec4;
+    text-decoration: underline;
+  }
+
+  .titleitemwrapper {
+    margin-top: -25px;
+    height: 20%;
+    animation: move 5s ease-in-out infinite alternate;
+  }
+  .homep {
+    margin-top: -25px;
+    font-size: 12px;
+    width: 300px;
+    font-weight: 600;
+  }
+  .homebtn {
+    border: none;
+    color: white;
+    background-color: #018ec4;
+    height: 35px;
+    width: 180px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .titleitem {
+    font-size: 15px;
+  }
 }
