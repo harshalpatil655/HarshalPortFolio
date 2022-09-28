@@ -218,7 +218,7 @@ export const Projects = () => {
                   rel="noreferrer"
                   href="https://github.com/harshalpatil655/SSENCE-CLONE-MASAI"
                 >
-                  Github Repo
+                  Github
                 </a>{" "}
               </button>
             </div>

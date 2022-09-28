@@ -174,10 +174,11 @@
     animation: move 5s ease-in-out infinite alternate;
   }
   .homep {
-    margin-top: -15px;
+    margin-top: 5px;
     font-size: 12px;
     width: 300px;
     font-weight: 600;
+    color: red;
   }
   .homebtn {
     border: none;
