@@ -1,4 +1,5 @@
 import React from "react";
+import GitHubCalendar from "react-github-calendar";
 import styles from "../CSS/Projects.module.css";
 import anthropologie from "../Image/anthropologie.PNG";
 import ssence from "../Image/ssence.PNG";
@@ -225,6 +226,15 @@ export const Projects = () => {
         </div>
       </div>
       {/* ////////////////////////////////////// */}
+      {/* //////////////////////////////////////////// */}
+      <div>
+        <div className={styles.gitcal}>
+          <h1>Github Calender</h1>
+          <div className={styles.gitcalone}>
+            <GitHubCalendar username="harshalpatil655" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

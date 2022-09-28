@@ -259,12 +259,12 @@
     transition: all 0.9s ease;
   }
   .build {
-    padding: 2rem;
+    padding: 1rem;
     text-decoration: underline;
     color: #0a6f97;
   }
   .builddark {
-    padding: 2rem;
+    padding: 1rem;
     text-decoration: underline;
     color: white;
   }

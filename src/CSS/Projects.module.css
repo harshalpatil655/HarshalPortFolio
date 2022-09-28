@@ -121,6 +121,13 @@
     transition: all 0.9s ease;
     box-shadow: 0 0 5px 5px rgba(8, 142, 147, 0.5);
   }
+  .gitcal {
+    margin: 2rem;
+  }
+  .gitcalone {
+    margin-left: 100px;
+    block-size: 10;
+  }
 }
 
 /* tablet view
@@ -195,6 +202,12 @@
     transition: all 0.9s ease;
     box-shadow: 0 0 5px 5px rgba(8, 142, 147, 0.5);
   }
+  .gitcal {
+    margin: 2rem;
+  }
+  .gitcalone {
+    block-size: 10;
+  }
 }
 
 /* mobile view
@@ -219,7 +232,7 @@
     width: 300px;
     border: 3px solid #018ec4;
     border-radius: 10px;
-    margin: 1rem;
+    margin: 1.5rem;
   }
   .projectimageslogo {
     height: 25px;
@@ -265,5 +278,11 @@
     transform: scale(1.09);
     transition: all 0.9s ease;
     box-shadow: 0 0 5px 5px rgba(8, 142, 147, 0.5);
+  }
+  .gitcal {
+    margin: 2rem;
+  }
+  .gitcalone {
+    block-size: 10;
   }
 }
