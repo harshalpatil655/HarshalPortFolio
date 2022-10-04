@@ -37,6 +37,7 @@
   .abtpara {
     margin: 2.5rem;
     font-weight: 500;
+    font-size: 25px;
   }
 }
 
@@ -62,13 +63,7 @@
   .abtdata {
     margin-top: -50px;
   }
-  .abtimage {
-    border-radius: 5px;
-    margin: 1rem;
-    height: 200px;
-    border: 1px solid rgb(207, 205, 205);
-    padding: 5px;
-  }
+
   .abtimage:hover {
     transform: scale(1.09);
     transition: all 0.9s ease;
@@ -107,12 +102,6 @@
     color: rgb(174, 170, 170);
     margin-top: -20px;
     text-align: center;
-  }
-
-  .abtimage {
-    border-radius: 5px;
-    height: 220px;
-    border: 1px solid rgb(207, 205, 205);
   }
 
   .abtnumbers {

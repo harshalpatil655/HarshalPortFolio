@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../CSS/Home.module.css";
 import { AiFillLinkedin, AiTwotoneMail, AiFillGithub } from "react-icons/ai";
-
+import photo from "../Image/harshalphoto.jpg";
 import Harshal_Patil_Resume from "../Resume/Harshal_Patil_Resume.pdf";
 
 const Home = () => {
@@ -81,6 +81,9 @@ const Home = () => {
               <button className={styles.homebtn}> Download Resume</button>
             </a>
           </div>
+        </div>
+        <div>
+          <img className={styles.abtimage} src={photo} alt="Imageharshal" />
         </div>
       </div>
     </div>

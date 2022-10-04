@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../CSS/About.module.css";
-import photo from "../Image/harshalphoto.jpg";
 
 const About = () => {
   return (
@@ -11,9 +10,6 @@ const About = () => {
       </div>
       <div className={styles.abtdata}>
         <div className={styles.abtflex}>
-          <div>
-            <img className={styles.abtimage} src={photo} alt="Imageharshal" />
-          </div>
           <div>
             <div className={styles.abtpara}>
               An enthusiastic fresher seeking a career with a progressive
