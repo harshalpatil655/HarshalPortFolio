@@ -88,7 +88,7 @@ const Contact = () => {
                 </div>
                 <div className={styles.contacthover}>
                   <a
-                    href="https://github.com/account"
+                    href="https://github.com/harshalpatil655"
                     target="_blank"
                     rel="noreferrer"
                   >
