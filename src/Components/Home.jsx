@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../CSS/Home.module.css";
 import { AiFillLinkedin, AiTwotoneMail, AiFillGithub } from "react-icons/ai";
 
-import myresume from "../Resume/myresume.pdf";
+import Harshal_Patil_Resume from "../Resume/Harshal_Patil_Resume.pdf";
 
 const Home = () => {
   const handleEmail = () => {
@@ -72,7 +72,12 @@ const Home = () => {
             </p>
           </div>
           <div>
-            <a href={myresume} target="_blank" rel="noreferrer" download>
+            <a
+              href={Harshal_Patil_Resume}
+              target="_blank"
+              rel="noreferrer"
+              download
+            >
               <button className={styles.homebtn}> Download Resume</button>
             </a>
           </div>

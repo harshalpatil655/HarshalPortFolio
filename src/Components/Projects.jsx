@@ -1,7 +1,7 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import styles from "../CSS/Projects.module.css";
-import anthropologie from "../Image/anthropologie.PNG";
+import timely from "../Image/timely.PNG";
 import ssence from "../Image/ssence.PNG";
 
 export const Projects = () => {
@@ -28,8 +28,8 @@ export const Projects = () => {
           <div>
             <img
               className={styles.clonewebimg}
-              src={anthropologie}
-              alt="Anthropologie"
+              src={timely}
+              alt="timelyclone"
             />
           </div>
           <div
@@ -76,12 +76,28 @@ export const Projects = () => {
               />
               <p className={styles.projectp}>Chakra-UI</p>
             </div>
+            <div>
+              <img
+                className={styles.projectimageslogo}
+                src="https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Emblem.jpg"
+                alt="MongoDB"
+              />
+              <p className={styles.projectp}>MongoDB</p>
+            </div>
+            <div>
+              <img
+                className={styles.projectimageslogo}
+                src="https://ih1.redbubble.net/image.438912065.6243/flat,1000x1000,075,f.u3.jpg"
+                alt="Mongoose"
+              />
+              <p className={styles.projectp}>Mongoose</p>
+            </div>
           </div>
         </div>
         <div className={styles.projectdetails}>
           <div>
             <div>
-              <h1 className={styles.proname}>Anthropologie-Clone</h1>
+              <h1 className={styles.proname}>Timely-Clone</h1>
             </div>
             <div>
               <p className={styles.projectspecs}>
@@ -89,22 +105,23 @@ export const Projects = () => {
                 <span style={{ fontSize: "23px", fontWeight: "800" }}>
                   {">"}
                 </span>{" "}
-                This website is build to purchase women's clothing,jewelery and
-                home,kitchen decoration products.
+                This website is build to a precise daily record of all the time
+                you spend in documents, meetings, emails, websites and video
+                calls with zero effort.
               </p>
               <p className={styles.projectspecs}>
                 {" "}
                 <span style={{ fontSize: "23px", fontWeight: "800" }}>
                   {">"}
                 </span>{" "}
-                You can purchase specially design fashion cloths only for
-                women's.
+                You can track projects and also do effortless appointment
+                scheduling.
               </p>
               <p className={styles.projectspecs}>
                 <span style={{ fontSize: "23px", fontWeight: "800" }}>
                   {">"}
                 </span>{" "}
-                A individual project, build in 5 days by me.
+                A group project, build in 5 days.
               </p>
             </div>
             <div>
@@ -114,7 +131,7 @@ export const Projects = () => {
                   style={{ textDecoration: "none", color: "white" }}
                   target="_blank"
                   rel="noreferrer"
-                  href="https://anthropologie-website-clone.netlify.app/"
+                  href="https://chic-meringue-64a4f0.netlify.app/"
                 >
                   Live Site
                 </a>{" "}
@@ -125,7 +142,7 @@ export const Projects = () => {
                   style={{ textDecoration: "none", color: "white" }}
                   target="_blank"
                   rel="noreferrer"
-                  href="https://github.com/harshalpatil655/parsimonious-push-9068"
+                  href="https://github.com/mohammad-atique/timely-clone"
                 >
                   Github
                 </a>{" "}
@@ -134,7 +151,7 @@ export const Projects = () => {
           </div>
         </div>
       </div>
-      {/* /22ssenceclone//////////////////////////////////////////////// */}
+      {/* /Bath and body//////////////////////////////////////////////// */}
 
       <div className={styles.projectflex}>
         <div className={styles.projectimage}>
@@ -225,15 +242,48 @@ export const Projects = () => {
           </div>
         </div>
       </div>
-      {/* ////////////////////////////////////// */}
+      {/* /////////////////////github calender///////////////// */}
       {/* //////////////////////////////////////////// */}
       <div>
         <div className={styles.gitcal}>
-          <h1>Github Calender</h1>
+          <h1 className={styles.statsh1}>Github Calender</h1>
           <div className={styles.gitcalone}>
             <GitHubCalendar username="harshalpatil655" />
           </div>
         </div>
+      </div>
+      {/* ////////////////////////////////////////
+      /////////github Stats//////////////////
+      /////////////////////////////////////// */}
+      <h1 className={styles.statsh1}>Github Stats</h1>
+      <div className={styles.statsmain}>
+        <p>
+          <img
+            className={styles.streak}
+            align="center"
+            src="https://github-readme-streak-stats.herokuapp.com/?user=harshalpatil655&"
+            alt="harshalpatil655"
+          />
+        </p>
+
+        <p>
+          &nbsp;
+          <img
+            className={styles.stats}
+            align="center"
+            src="https://github-readme-stats.vercel.app/api?username=harshalpatil655&show_icons=true&locale=en"
+            alt="harshalpatil655"
+          />
+        </p>
+
+        <p>
+          <img
+            className={styles.language}
+            align="left"
+            src="https://github-readme-stats.vercel.app/api/top-langs?username=harshalpatil655&show_icons=true&locale=en&layout=compact"
+            alt="harshalpatil655"
+          />
+        </p>
       </div>
     </div>
   );

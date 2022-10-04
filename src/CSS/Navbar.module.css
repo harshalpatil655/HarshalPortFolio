@@ -1,13 +1,14 @@
 @media (min-width: 1024px) {
   .navflex {
     display: flex;
-    padding-top: 15px;
-    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 6px;
     position: fixed;
     top: 0;
     z-index: 2;
     font-weight: 600;
     font-size: 20px;
+    /* background-color: white; */
   }
   .linkstab {
     display: flex;
@@ -23,7 +24,7 @@
     color: #1a799e;
   }
   .tabs {
-    margin-right: 30px;
+    margin-right: 35px;
     cursor: pointer;
   }
   .tabs:hover {

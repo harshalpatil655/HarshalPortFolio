@@ -1,61 +1,3 @@
-/* .projectimage {
-  border: 1px solid rgb(207, 205, 205);
-  padding: 3px;
-  width: 350px;
-}
-.projectimage:hover {
-  box-shadow: 0 0 2px 1px rgba(9, 211, 218, 0.5);
-} */
-
-/* @media (max-width: 720px) {
-  .projectflex {
-    display: flex;
-    flex-direction: column;
-    margin-right: 10px;
-  }
-  .projectimage {
-    border: 3px solid black;
-    border-radius: 10px;
-    width: 350px;
-    margin: 20px;
-  }
-  .clonewebimg {
-    width: 300px;
-  }
-  .projectdetails {
-    border: 3px solid black;
-    width: 350px;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-left: 20px;
-  }
-  .projectbutton {
-    height: 40px;
-  }
-  .logosmargin {
-    margin-right: 50px;
-  }
-  .projecttitle {
-    width: 80%;
-  }
-  .projectimage {
-    width: 73%;
-  }
-  .clonewebimg {
-    width: 80%;
-  }
-  .logomarginleft {
-    margin-left: 60px;
-  }
-  .projectp {
-    width: 50%;
-    margin: 3px;
-  }
-  .projectdetails {
-    width: 70%;
-  }
-} */
-
 @media (min-width: 1024px) {
   .projectflex {
     display: flex;
@@ -78,8 +20,8 @@
     border-radius: 0 10px 10px 0;
   }
   .projectimageslogo {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
   }
   .clonewebimg {
     height: 300px;
@@ -90,7 +32,7 @@
   }
   .projectp {
     font-weight: 700;
-    font-size: 15px;
+    font-size: 12px;
     margin-top: -5px;
   }
   .projectspecs {
@@ -110,7 +52,6 @@
   .clonewebimg:hover {
     transform: scale(1.09);
     transition: all 0.9s ease;
-    box-shadow: 0 0 5px 5px #018ec4;
   }
   .projectimageslogo:hover {
     transform: scale(1.09);
@@ -127,6 +68,24 @@
   .gitcalone {
     margin-left: 100px;
     block-size: 10;
+  }
+  .statsmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .statsh1 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .streak {
+    width: 650px;
+  }
+  .stats {
+    width: 650px;
+  }
+  .language {
+    width: 650px;
   }
 }
 
@@ -191,7 +150,6 @@
   .clonewebimg:hover {
     transform: scale(1.09);
     transition: all 0.9s ease;
-    box-shadow: 0 0 5px 5px #018ec4;
   }
   .projectimageslogo:hover {
     transform: scale(1.09);
@@ -208,6 +166,24 @@
   .gitcalone {
     block-size: 10;
   }
+  .statsmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .statsh1 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .streak {
+    width: 550px;
+  }
+  .stats {
+    width: 550px;
+  }
+  .language {
+    width: 550px;
+  }
 }
 
 /* mobile view
@@ -220,6 +196,7 @@
     flex-direction: column;
     justify-content: center;
     margin-bottom: 10px;
+    margin-left: 1rem;
   }
   .projectimage {
     width: 300px;
@@ -268,7 +245,6 @@
   .clonewebimg:hover {
     transform: scale(1.09);
     transition: all 0.9s ease;
-    box-shadow: 0 0 5px 5px #018ec4;
   }
   .projectimageslogo:hover {
     transform: scale(1.09);
@@ -284,5 +260,23 @@
   }
   .gitcalone {
     block-size: 10;
+  }
+  .statsmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .statsh1 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .streak {
+    width: 350px;
+  }
+  .stats {
+    width: 350px;
+  }
+  .language {
+    width: 350px;
   }
 }
