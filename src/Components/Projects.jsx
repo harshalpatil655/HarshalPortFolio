@@ -227,7 +227,7 @@ export const Projects = () => {
         <div className={styles.projectdetails}>
           <div>
             <div>
-              <h1>SSENCE-Clone</h1>
+              <h1>Bath & Body Works</h1>
             </div>
             <div>
               <p className={styles.projectspecs}>
